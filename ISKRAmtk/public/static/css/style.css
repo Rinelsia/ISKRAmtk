@@ -1,0 +1,59 @@
+/*Блок меню*/
+.menu{
+    margin-top: -2em;    
+    text-align: center;    
+    background-color: rgba(20, 20, 50, 0.6);
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    
+}
+.menu li{
+    float: left;
+    padding: 0.5rem;
+}
+.menu li:hover{
+    background-color: black;
+}
+.menu a{
+    color:aliceblue;
+    text-decoration: none;
+}
+/*блок шапки*/
+.fon-1{
+    background-image: url(../img/fon1.2.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fon-1 h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    color: floralwhite;
+}
+.fon-1-h1 {
+    background: rgba(75, 100, 154, 0);
+    background-attachment: fixed;
+}
+/*блок контента панели управления*/
+.zagol1{
+    text-align: center;
+    border-bottom: dashed;
+}
+.cont1, .cont2{
+    border-left: 1px solid darkgray;
+    padding: 1rem;
+    height: 28rem;
+}
+/*блок меню2*/
+.menu2 li{
+    color: cornflowerblue;
+}
+.menu2 li:hover{
+    background-color: darkgray;
+}

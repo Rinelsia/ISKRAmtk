@@ -1,0 +1,14 @@
+{
+	"index":{
+		"1":"private/view/templateView.php"
+	},
+	
+	"database":{
+        "1":"private/view/templateView.php",
+		"2":"private/view/pu.php",
+        "3":{
+            "create_db":"private/view/CreateDB_view.php",
+            "createTabl":"private/view/CreateTabl_view.php"
+        }        
+	}
+}
